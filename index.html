@@ -101,17 +101,26 @@
                 finacier important pour vous. c'est pourquoi nous mettons un point d'honneur a prendre en compte chacune
                 de vos attentes pour vous aider dans la préparation de votre séjour , circuit ou voyage sur mesure
             </p>
-            <form>
+            <!-- <form>
                 <label for="nom">nom</label>
                 <input type="text" id="nom" placeholder="votre nom">
                 <label class="mail" for="mail">email</label>
                 <input type="text" id="mail" placeholder="votre email">
                 <input type="submit" value="ok" class="button-3">
-            </form>
-            <!-- <form>
-                <label class="mail" for="mail">email</label>
-                <input type="text" id="mail" placeholder="votre email">
             </form> -->
+            <form action="/submit_form.php" method="post">
+                <div>
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" required placeholder="votre nom">
+                </div>
+                <div>
+                    <label for="email"><br>E-mail</label>
+                    <input type="email" id="email" name="email" required placeholder="votre mail">
+                </div>
+                <div>
+                    <button type="submit" class="button-3">OK</button>
+                </div>
+            </form>
 
         </div>
 

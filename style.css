@@ -268,7 +268,19 @@ footer h1 {
     color: red;
 }
 
-@media screen and (min-width: 982px) {
+.button-3 {
+    color: #fff;
+    font: size 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #02b8dd;
+    border-style: none;
+    cursor: pointer;
+    width: 70px;
+    margin: 10px auto;
+}
+
+/* @media screen and (min-width: 982px) {
     #circuits {
         background-color: #efefef;
         padding: 60px 0;
@@ -277,20 +289,20 @@ footer h1 {
         margin: 0 auto;
 
 
-    }
+    } */
 
-    #circuits article {
+/* #circuits article {
         width: 450px;
         height: 270px;
         float: left;
         border-radius: 10px;
-    }
+    } */
 
-    #circuits article:first-child {
+/* #circuits article:first-child {
         margin-top: 50px;
-        margin-right: 70px;
-        /* padding-top: 20px; */
-    }
+        margin-right: 70px; */
+/* padding-top: 20px; */
+/* }
 
     .float {
         float: right;
@@ -298,55 +310,96 @@ footer h1 {
 }
 
 @media screen and (min-width: 980px) {
-    #circuits {
-        /* background-color: #efefef; */
-        /* padding: 60px 0; */
-        height: 320px;
-        /* padding-left: 100px; */
-        background-color: #efefef
-            /* width: 850px; */
-            /* padding-right: 80px; */
+    #circuits { */
+/* background-color: black; */
+/* padding: 60px 0; */
+/* height: 320px; */
+/* padding-left: 100px; */
+/* background-color: #efefef */
+/* width: 850px; */
+/* padding-right: 80px; */
 
 
-    }
+/* } */
 
-    #circuits article {
+/* #circuits article {
         width: 320px;
-        height: 250px;
-        /* float: left; */
-        border-radius: 10px;
+        height: 250px; */
+/* float: left; */
+/* border-radius: 10px;
     }
 
     body {
         margin: 0;
         padding: 0px;
-    }
+    } */
 
-    #circuits article:first-child {
-        margin-top: 20px;
-        /* margin-right: 70px; */
-        margin-top: 50px;
+/* #circuits article:first-child {
+        margin-top: 20px; */
+/* margin-right: 70px; */
+/* margin-top: 50px;
         margin-left: 0px;
         padding-left: 0px;
-    }
+    } */
 
-    .float {
-        /* float: right; */
-        margin-top: 70px;
+/* .float { */
+/* float: right; */
+/* margin-top: 70px;
         margin-right: 50px;
         padding-right: 50px;
     }
 
 
-}
+} */
+@media screen and (max-width: 1189px) {
 
-@media screen and (min-width: 1250px) {
+    #circuits article {
+        width: 350px;
+        height: 300px;
+        float: left;
+        border-radius: 10px;
+        /* padding: 0px; */
+    }
+
+    #destination ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 80px 0;
+    }
 
     #circuits {
         background-color: #efefef;
         padding: 60px 0;
         display: flex;
         justify-content: space-between;
+        height: 300px;
+    }
+
+    #circuits article:first-child {
+        margin-top: 55px;
+        margin-left: 20px;
+        /* margin-right: 70px; */
+        /* margin-top: 50px;
+        margin-left: 0px;
+        padding-left: 0px; */
+    }
+
+    body {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+}
+
+@media screen and (min-width: 1190px) {
+
+    #circuits {
+        background-color: #efefef;
+        padding: 60px 0;
+        display: flex;
+        justify-content: space-between;
+        height: 300px;
+        /* float: left; */
         /* padding-left: 100px; */
 
         /* width: 850px; */
@@ -355,10 +408,16 @@ footer h1 {
 
     }
 
+    #destination ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 80px 0;
+    }
+
     #circuits article {
         width: 460px;
         height: 270px;
-        /* float: left; */
+        float: left;
         border-radius: 10px;
     }
 
@@ -377,7 +436,10 @@ footer h1 {
 
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 920px) {
+    body {
+        overflow-x: hidden;
+    }
 
     header h1 {
         font-family: 'crete Round';
@@ -387,12 +449,52 @@ footer h1 {
         font-size: 17px;
     }
 
+    .step-1 {
+        background: url(./images/steps-icon-1.png) no-repeat top center;
+        /* width: 100px; */
+        /* background-color: #444; */
+        margin-left: 0px;
+        padding-left: 0px;
+
+    }
+
+    .step-2 {
+        background: url(./images/steps-icon-2.png) no-repeat top center;
+        width: 400px;
+        /* background-color: #02b8dd; */
+
+
+    }
+
+    .step-2 p {
+        width: 450px;
+    }
+
+    .step-3 p {
+        width: 450px;
+    }
+
+    .step-1 p {
+        width: 450px;
+    }
+
+    .step-3 {
+        background: url(./images/steps-icon-3.png) no-repeat top center;
+        /* width: 100px; */
+
+
+    }
+
+    #circuits {
+        height: 650px;
+    }
+
     #circuits article {
         /* width: 320px; */
         height: 280px;
         border-radius: 10px;
         justify-content: space-between;
-        margin-left: 10px;
+        margin-left: 70px;
         /* margin-right: 10px; */
         margin-top: 50px;
         /* margin: 0 auto; */
@@ -400,9 +502,23 @@ footer h1 {
 
     }
 
+    #circuits article:first-child {
+        margin-top: 50px;
+        margin-left: 70px;
+        /* margin-right: 70px; */
+        /* margin-top: 50px;
+        margin-left: 0px;
+        padding-left: 0px; */
+    }
+
     nav ul li {
         /* display: inline-block; */
         font-size: 9px;
+    }
+
+    #destination {
+        width: 400px;
+        margin-left: 0px;
     }
 
     #destination ul li {
@@ -419,16 +535,6 @@ footer h1 {
         margin: 80px 0;
     }
 
-    .button-3 {
-        color: #fff;
-        font: size 20px;
-        font-weight: bold;
-        padding: 11px;
-        background-color: #02b8dd;
-        border-style: none;
-        cursor: pointer;
-        width: 70px;
-        margin: 10px auto;
-    }
+
 
 }
