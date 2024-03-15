@@ -6,6 +6,8 @@
 body {
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
+    background-color: red;
 }
 
 /* HEADER */
@@ -83,11 +85,12 @@ h2 {
 /* Destination */
 
 #destination ul li {
-    width: 200px;
+    /* width: 200px; */
     list-style: none;
     padding-top: 140px;
     text-align: center;
 }
+
 
 
 #destination ul {
@@ -134,10 +137,10 @@ p {
     /* width: 320px; */
     height: 280px;
     border-radius: 10px;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 10px;
-    margin-top: 50px;
+    /* justify-content: space-between; */
+    /* margin-left: 100px; */
+    /* margin-right: 10px; */
+    /* margin-top: 50px; */
     /* margin: 0 auto; */
 
 
@@ -146,6 +149,7 @@ p {
 #circuits article:first-child {
     margin-top: 10px;
     border-radius: 10px 10px 10px 10px;
+
 }
 
 .overlay {
@@ -351,6 +355,7 @@ footer h1 {
 
 
 } */
+/* tablette */
 @media screen and (max-width: 1189px) {
 
     #circuits article {
@@ -377,7 +382,7 @@ footer h1 {
 
     #circuits article:first-child {
         margin-top: 55px;
-        margin-left: 20px;
+        /* margin-left: 20px; */
         /* margin-right: 70px; */
         /* margin-top: 50px;
         margin-left: 0px;
@@ -391,6 +396,7 @@ footer h1 {
 
 }
 
+/* ordi */
 @media screen and (min-width: 1190px) {
 
     #circuits {
@@ -408,6 +414,7 @@ footer h1 {
 
     }
 
+
     #destination ul {
         display: flex;
         justify-content: space-between;
@@ -419,6 +426,7 @@ footer h1 {
         height: 270px;
         float: left;
         border-radius: 10px;
+        margin-left: 45px;
     }
 
     body {
@@ -426,20 +434,13 @@ footer h1 {
         padding: 0px;
     }
 
-    #circuits article:first-child {
-        margin-top: 50px;
-        /* margin-right: 70px; */
-        /* margin-top: 50px;
-        margin-left: 0px;
-        padding-left: 0px; */
-    }
+
 
 }
 
+/* telephone */
 @media screen and (max-width: 920px) {
-    body {
-        overflow-x: hidden;
-    }
+
 
     header h1 {
         font-family: 'crete Round';
@@ -467,15 +468,15 @@ footer h1 {
     }
 
     .step-2 p {
-        width: 450px;
+        /* width: 450px; */
     }
 
     .step-3 p {
-        width: 450px;
+        /* width: 450px; */
     }
 
     .step-1 p {
-        width: 450px;
+        /* width: 450px; */
     }
 
     .step-3 {
@@ -490,26 +491,23 @@ footer h1 {
     }
 
     #circuits article {
-        /* width: 320px; */
+        /* width: 100%; */
         height: 280px;
+        /* border: 1px solid blue; */
+        margin: 0 auto;
         border-radius: 10px;
-        justify-content: space-between;
-        margin-left: 10px;
+        margin-bottom: 15px;
+        /* justify-content: space-between; */
+        /* margin-left: auto;
+        margin-right: auto; */
         /* margin-right: 10px; */
-        margin-top: 50px;
+        /* margin-top: 50px; */
         /* margin: 0 auto; */
 
 
     }
 
-    #circuits article:first-child {
-        margin-top: 50px;
-        /* margin-left: 70px; */
-        /* margin-right: 70px; */
-        /* margin-top: 50px;
-        margin-left: 0px;
-        padding-left: 0px; */
-    }
+
 
     nav ul li {
         /* display: inline-block; */
@@ -522,12 +520,13 @@ footer h1 {
     }
 
     #destination ul li {
-        width: 500px;
+        /* width: 500px; */
         /* list-style: none; */
         padding-top: 140px;
         text-align: center;
         margin-top: 20px;
     }
+
 
     #destination ul {
         display: block;
@@ -535,6 +534,10 @@ footer h1 {
         /* margin: 80px 0; */
     }
 
-
-
+    .border {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        /* background-color: blue; */
+    }
 }
